@@ -7,7 +7,7 @@ void addOne(int* ptr) {
 
 int main()
 {
-  int* p, i = 10;
+  int* p, i = 100;
   p = &i;
   addOne(p);
 
